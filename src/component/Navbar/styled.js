@@ -17,7 +17,9 @@ const Category = styled.div`
     align-items: center;
 `;
 const Icon = styled.div``;
+
 Icon.Menu = styled(menu)``;
+
 Icon.Logo = styled.img``;
 
 const Input = styled.input`
@@ -36,6 +38,10 @@ const Search = styled.div`
     width: 65px;
     height: 32px;
     background: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    :hover{
+        background: rgba(255, 255, 255, 0.1);
+    }
 `;
 Search.Item = styled(search)``;
 

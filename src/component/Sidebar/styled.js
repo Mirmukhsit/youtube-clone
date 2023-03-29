@@ -8,6 +8,8 @@ const Container = styled.div`
     overflow: auto;
     height: 100%;
     position: fixed;
+    z-index: 1;
+
 `
 
 const Wrapper = styled.div`

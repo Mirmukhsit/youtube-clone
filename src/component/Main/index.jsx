@@ -1,10 +1,11 @@
 import React from 'react';
 import {main} from '../../utils/main';
 import Navin from './Navin';
-import {Container,Container1, Image, InfoWrapper, Name, Time, Title, UserImage, Wrapper} from './styled';
+import {ContainerMain, Container1, Image, InfoWrapper, Name, Time, Title, UserImage, Wrapper} from './styled';
+
 function Main() {
   return (
-    <Container>
+    <ContainerMain>
       <Navin />
       <Container1>
         {
@@ -27,7 +28,7 @@ function Main() {
          ))
        };
       </Container1>
-    </Container>
+    </ContainerMain>
   )
 };
 

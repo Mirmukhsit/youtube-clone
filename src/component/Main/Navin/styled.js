@@ -7,6 +7,8 @@ const Container = styled.div`
     justify-content: center;
     width: 100%;
     height: 60px;
+    position: fixed;
+    z-index: 0;
 `;
 
 const Item = styled.div`

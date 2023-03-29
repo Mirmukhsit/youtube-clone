@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
-const Container = styled.div`
-    /* display: flex; */
+const ContainerMain = styled.div`
+    display: flex;
     flex-direction: column;
     flex: 1;
     height: 100%;
+    float: right;
 `;
 const Container1 = styled.div`
     display: flex;
-    /* gap: 10px; */
     flex-wrap: wrap ;
     justify-content: space-between;
 `;
@@ -54,4 +54,4 @@ const Time = styled.h2`
     color: rgba(255, 255, 255, 0.6);
 `;
 
-export {InfoWrapper,Wrapper,Container,Container1,Image,UserImage,Title,Name,Time}
+export {InfoWrapper, Wrapper, ContainerMain, Container1, Image, UserImage, Title, Name, Time}
