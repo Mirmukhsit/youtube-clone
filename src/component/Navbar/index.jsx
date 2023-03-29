@@ -1,7 +1,7 @@
 import React from 'react';
 import {Category, Container, Icon, Input, NavIcons1, Search} from './styled';
-import logo from '../../../assets/img/logo.png';
-import user from '../../../assets/img/pp.png';
+import logo from '../../assets/img/logo.png';
+import user from '../../assets/img/pp.png';
 function Navbar() {
   return (
     <Container>

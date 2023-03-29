@@ -1,5 +1,5 @@
 import React from 'react';
-import {main} from '../../../utils/main';
+import {main} from '../../utils/main';
 import Navin from './Navin';
 import {Container,Container1, Image, InfoWrapper, Name, Time, Title, UserImage, Wrapper} from './styled';
 function Main() {

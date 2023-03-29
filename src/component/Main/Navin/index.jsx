@@ -1,5 +1,5 @@
 import React from 'react'
-import {mainnav} from '../../../../utils/mainnav'
+import {mainnav} from '../../../utils/mainnav'
 import {Container, Item} from './styled'
 function Navin() {
   return (

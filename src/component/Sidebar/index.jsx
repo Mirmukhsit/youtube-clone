@@ -1,6 +1,6 @@
 import React from 'react'
-import {ReactComponent as bookshelf} from '../../../assets/icon/bookshelf.svg';
-import {sidebar} from '../../../utils/sidebar';
+// import {ReactComponent as bookshelf} from '../../../assets/icon/bookshelf.svg';
+import {sidebar} from '../../utils/sidebar';
 import {Container, H3, HR, Title, Wrapper} from './styled';
 
 function Sidebar() {

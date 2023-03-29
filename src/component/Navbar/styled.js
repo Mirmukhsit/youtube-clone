@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import {ReactComponent as menu} from '../../../assets/icon/menu.svg';
-import {ReactComponent as search} from '../../../assets/icon/search.svg';
-import {ReactComponent as camera} from '../../../assets/icon/camera.svg';
+import {ReactComponent as menu} from '../../assets/icon/menu.svg';
+import {ReactComponent as search} from '../../assets/icon/search.svg';
+import {ReactComponent as camera} from '../../assets/icon/camera.svg';
 
 const Container = styled.div`
     display: flex;
